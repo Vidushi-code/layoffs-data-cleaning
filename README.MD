@@ -138,15 +138,10 @@ These figures were calculated directly from `layoffs.csv` and the cleaning logic
 layoffs-data-cleaning-analysis-sql/
 │
 ├── README.md
-│
-├── sql/
-│   └── data_cleaning_project.sql
-│
 ├── data/
 │   └── layoffs.csv
-│
-└── screenshots/
-    └── README.md
+└── sql/
+    └── data_cleaning.sql
 ```
 
 ## How to Run
