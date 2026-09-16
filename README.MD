@@ -135,11 +135,16 @@ These figures were calculated directly from `layoffs.csv` and the cleaning logic
 ## Project Structure
 
 ```
-layoffs-data-cleaning-analysis-sql/
-│
-├── README.md
+layoffs-data-cleaning/
+├── README.MD
 ├── data/
 │   └── layoffs.csv
+├── screenshots/
+│   ├── 01_raw_data.png
+│   ├── 02_duplicate_detection.png
+│   ├── 03_final_row_count.png
+│   ├── 04_null_industry_selfjoin.png
+│   └── 05_standardized_industry.png
 └── sql/
     └── data_cleaning.sql
 ```
